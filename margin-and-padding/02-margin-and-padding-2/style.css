@@ -7,21 +7,38 @@ body {
   width: 400px;
   background: #fff;
   margin: 16px auto;
+  padding: 20px;
 }
 
 .title {
   background: #e3f4ff;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 20px;
 }
 
 .content {
   background: #e3f4ff;
+  
+  margin-bottom: 10px;
+  padding: 15px;
 }
 
 .button-container {
+  text-align: center;
   background: #e3f4ff;
+  padding: 10px;
+  
 }
 
 button {
+
   background: white;
   border: 1px solid #eee;
+  display: block;
+  /*since display is block now, the button is 
+  now surrounded with its own margin because 
+  block elements get a whole line, and hence margin*/
+  margin: auto;
+  padding: 10px 20px;
 }
